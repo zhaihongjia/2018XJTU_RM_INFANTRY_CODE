@@ -1,0 +1,8 @@
+<launch>
+  <node name="usb_cam_node" pkg="usb_cam" type="usb_cam_node" >
+  </node>
+  <node name="opencv_testcam" pkg="opencvtest2" type="opencv_testcam">
+  </node>
+  <node name="serial_node" pkg="serial_translate" type="serial_node">
+  </node>
+</launch>

@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg="serial_common" name="serial_common" type="serial_common_node"   respawn="true"/>
+
+ <node pkg="usb_cam" name="usb_cam" type="usb_cam_node"   respawn="true"/>
+
+  <node pkg="opencvtest3" name="opencv_testcam3" type="opencv_testcam3"   respawn="true"/>
+ 
+</launch>
