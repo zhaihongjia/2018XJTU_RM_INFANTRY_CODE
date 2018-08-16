@@ -18,29 +18,39 @@ models和my_code_data 包含一些大小能量机关中识别的Caffe模型，�
 ＃－－－－－－－－－－－－－－－－－－－－－
 
 依赖环境：
+
 cmake 3.5.1
+
 opencv3.3.1
+
 ubuntu16.04
+
 caffe
+
 ROS kinetic
+
 v4l2
 
 ＃－－－－－－－－－－－－－－－－－－－－－
 
-＃－－－－－－－－－－－－－－－－－－－－－
 
-编译运行方式：
-将opencvtest3 serial_common usb_cam 节点包
-
+＃－－－－－－－编译运行方式：－－－－－－－
 cd 
+
 mkdir catkin_ws
+
 cd catkin_ws/
+
 mkdir src
-将opencvtest3 serial_common usb_cam 节点包　copy 至src 目录下；修改opencvtest3/
+
+将opencvtest3 serial_common usb_cam 节点包　copy 至src 目录下；修改opencvtest3/src/bubing.cpp中网络文件的路径（即model and my_code_data 中文件路径）
+
 在catkin_ws目录下执行：
+
 catkin_make
 
 编译通过即可
+
 ＃－－－－－－－－－－－－－－－－－－－－－
 
 如有相关疑问可以咨询相关人员,欢迎和大家一起讨论交流，微信联系方式如下：
