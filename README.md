@@ -44,7 +44,7 @@ cd catkin_ws/
 
 mkdir src
 
-将opencvtest3 serial_common usb_cam 节点包　copy 至src 目录下；修改opencvtest3/src/bubing.cpp中网络文件的路径（即model and my_code_data 中文件路径）
+将opencvtest3 　serial_common 　usb_cam 节点包　copy 至src 目录下；修改opencvtest3/src/bubing.cpp中网络文件的路径（即model and my_code_data 中文件路径）
 
 在catkin_ws目录下执行：
 
