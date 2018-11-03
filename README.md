@@ -33,7 +33,7 @@ v4l2
 
 
 ## 编译运行方式
-'''
+```
 cd 
 
 mkdir catkin_ws
@@ -41,12 +41,12 @@ mkdir catkin_ws
 cd catkin_ws/
 
 mkdir src
-'''
+```
 将opencvtest3 　serial_common 　usb_cam 节点包　copy 至src 目录下；修改opencvtest3/src/bubing.cpp中网络文件的路径（即models and my_code_data 中文件路径）
 
 在catkin_ws目录下执行：
 
-""" catkin_make """
+` catkin_make `
 
 编译通过即可
 
