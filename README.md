@@ -1,10 +1,10 @@
 # 2018XJTU_RM_INFANTRY_CODE
 
 
-# 西安交通大学RoboMaster笃行战队步兵机器人视觉部分代码，主要包括：大小能量机关，装甲自瞄以及补给站WiFi通讯
+## 西安交通大学RoboMaster笃行战队步兵机器人视觉部分代码，主要包括：大小能量机关，装甲自瞄以及补给站WiFi通讯
 
 
-
+## 几点说明
 整个代码是基于ROS实现的，主要包括三个package:
 
 opencvtest3:大小能量机关和自瞄节点，补给站消息节点
@@ -16,7 +16,7 @@ usb_cam:摄像头节点设置
 models和my_code_data 包含一些大小能量机关中识别的Caffe模型，网络定义以及摄像头参数
 
 
-依赖环境：
+## 依赖环境
 
 cmake 3.5.1
 
@@ -30,11 +30,10 @@ ROS kinetic
 
 v4l2
 
-＃－－－－－－－－－－－－－－－－－－－－－
 
 
-＃－－－－－－－编译运行方式：－－－－－－－
-
+## 编译运行方式
+'''
 cd 
 
 mkdir catkin_ws
@@ -42,7 +41,7 @@ mkdir catkin_ws
 cd catkin_ws/
 
 mkdir src
-
+'''
 将opencvtest3 　serial_common 　usb_cam 节点包　copy 至src 目录下；修改opencvtest3/src/bubing.cpp中网络文件的路径（即models and my_code_data 中文件路径）
 
 在catkin_ws目录下执行：
